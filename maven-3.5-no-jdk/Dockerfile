@@ -1,5 +1,5 @@
 FROM buildpack-deps:buster-curl
-MAINTAINER sven.ruppert@gmail.com
+MAINTAINER a.meier@xdev-software.de
 
 ARG MAVEN_VERSION=3.5.4
 ARG USER_HOME_DIR="/root"

@@ -3,8 +3,10 @@ MAINTAINER a.meier@xdev-software.de
 
 ARG USER_HOME_DIR="/root"
 
+ADD jdk1.8.0_231.zip /data/jdk1.8.0_231.zip
+
 RUN curl -sL https://github.com/shyiko/jabba/raw/master/install.sh | \
-    JABBA_COMMAND="install 1.8.172 -o /jdk" bash
+    JABBA_COMMAND="install 1.8.0-231=zip+file:///data/jdk1.8.0_231.zip -o /jdk" bash
 
 ENV JAVA_HOME /jdk
 ENV PATH $JAVA_HOME/bin:$PATH

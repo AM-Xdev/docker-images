@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-MAINTAINER Sven Ruppert <sven.ruppert@gmail.com>
+MAINTAINER Arne Meier <a.meier@xdev-software.de>
 
 USER root
 WORKDIR /app

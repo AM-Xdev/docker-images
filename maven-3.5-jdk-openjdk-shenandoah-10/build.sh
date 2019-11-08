@@ -1,6 +1,6 @@
 #!/bin/bash
-docker build -t svenruppert/maven-3.5-jdk-openjdk-shenandoah-10 .
-docker push svenruppert/maven-3.5-jdk-openjdk-shenandoah-10:latest
+docker build -t amxdev/maven-3.5-jdk-openjdk-shenandoah-10 .
+docker push amxdev/maven-3.5-jdk-openjdk-shenandoah-10:latest
 
-docker tag svenruppert/maven-3.5-jdk-openjdk-shenandoah-10:latest svenruppert/maven-3.5-jdk-openjdk-shenandoah-10:1.10.0-254
-docker push svenruppert/maven-3.5-jdk-openjdk-shenandoah-10:1.10.0-254
+docker tag amxdev/maven-3.5-jdk-openjdk-shenandoah-10:latest amxdev/maven-3.5-jdk-openjdk-shenandoah-10:1.10.0-254
+docker push amxdev/maven-3.5-jdk-openjdk-shenandoah-10:1.10.0-254

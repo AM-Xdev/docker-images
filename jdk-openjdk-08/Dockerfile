@@ -1,5 +1,5 @@
 FROM buildpack-deps:buster-curl
-LABEL maintainer="Sven Ruppert sven.ruppert@gmail.com" description="Open JDK 08"
+LABEL maintainer="Arne Meier a.meier@xdev-software.de" description="Open JDK 08"
 
 ARG USER_HOME_DIR="/root"
 

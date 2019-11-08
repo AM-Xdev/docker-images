@@ -1,5 +1,5 @@
 FROM buildpack-deps:buster-curl
-LABEL maintainer="Sven Ruppert sven.ruppert@gmail.com" description="Oracle JDK 10"
+LABEL maintainer="Arne Meier a.meier@xdev-software.de" description="Oracle JDK 10"
 
 ARG USER_HOME_DIR="/root"
 

@@ -1,5 +1,5 @@
-FROM svenruppert/maven-3.5-no-jdk:maven-3.5.4
-MAINTAINER sven.ruppert@gmail.com
+FROM amxdev/maven-3.5-no-jdk:maven-3.5.4
+MAINTAINER a.meier@xdev-software.de
 
 ARG USER_HOME_DIR="/root"
 

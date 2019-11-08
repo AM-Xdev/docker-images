@@ -1,5 +1,5 @@
 FROM buildpack-deps:buster-curl
-LABEL maintainer="Sven Ruppert sven.ruppert@gmail.com" description="Zulu JDK 11"
+LABEL maintainer="Arne Meier a.meier@xdev-software.de" description="Zulu JDK 11"
 
 ARG USER_HOME_DIR="/root"
 

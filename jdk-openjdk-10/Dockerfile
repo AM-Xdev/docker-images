@@ -1,5 +1,5 @@
 FROM buildpack-deps:buster-curl
-LABEL maintainer="Sven Ruppert sven.ruppert@gmail.com" description="Open JDK 10"
+LABEL maintainer="Arne Meier a.meier@xdev-software.de" description="Open JDK 10"
 
 RUN curl -sL https://github.com/shyiko/jabba/raw/master/install.sh | \
     JABBA_COMMAND="install openjdk@1.10.0-2 -o /jdk" bash

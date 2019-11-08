@@ -1,6 +1,6 @@
 #!/bin/bash
-docker build -t svenruppert/jdk-openjdk-08 .
-docker push svenruppert/jdk-openjdk-08:latest
+docker build -t amxdev/jdk-openjdk-08 .
+docker push amxdev/jdk-openjdk-08:latest
 
-docker tag svenruppert/jdk-openjdk-08:latest svenruppert/jdk-openjdk-08:1.8.172-11
-docker push svenruppert/jdk-openjdk-08:1.8.172-11
+docker tag amxdev/jdk-openjdk-08:latest amxdev/jdk-openjdk-08:1.8.172-11
+docker push amxdev/jdk-openjdk-08:1.8.172-11

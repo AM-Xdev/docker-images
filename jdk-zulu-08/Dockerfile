@@ -4,7 +4,7 @@ LABEL maintainer="Arne Meier a.meier@xdev-software.de" description="Zulu JDK 08"
 ARG USER_HOME_DIR="/root"
 
 RUN curl -sL https://github.com/shyiko/jabba/raw/master/install.sh | \
-    JABBA_COMMAND="install zulu@1.8.172 -o /jdk" bash
+    JABBA_COMMAND="install zulu@1.8.242 -o /jdk" bash
 
 ENV JAVA_HOME /jdk
 ENV PATH $JAVA_HOME/bin:$PATH
